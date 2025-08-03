@@ -1,0 +1,20 @@
+{
+    "merge_joints": true,
+    "joint_conv": true,
+    "classifier_hidden_dims": [
+        1024, 512, 256
+    ],
+    "classifier_dropout": 0.0,
+    "weight_decay": 0.0,
+    "lambda_l1": 0.001, 
+    "select_middle": false,
+    "mirror_prob": 0.5,
+    "rotation_prob": 0.5,
+    "noise_prob": 0.5,
+    "data_type": "PD",
+    "use_validation": false,
+    "source_seq_len": 81,
+    "stopping_tolerance": 50,
+    "epochs": 30,
+    "criterion": "WCELoss"
+}
