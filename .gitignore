@@ -1,6 +1,15 @@
-*.i
-*.ii
-*.gpu
-*.ptx
-*.cubin
-*.fatbin
+# checkpoint
+checkpoint/*
+*.bin
+
+# logs
+wandb/*
+
+# results
+res/*
+*.png
+*.mp4
+
+# data
+data/*
+*.npz
