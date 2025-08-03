@@ -19,8 +19,8 @@ pip install -r requirement.txt
 The PDGait dataset is download from [A public data set of walking](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.992585/full). The the data is preprocessed through:
 
 ```bash
-cd lib/data/pdgait \\
-python convert_pd.py \\
+cd lib/data/pdgait
+python convert_pd.py
 python preprocess_pd.py
 ```
 
@@ -28,8 +28,8 @@ python preprocess_pd.py
 The 3DGait dataset is download from [Video-based-gait-analysis](https://github.com/lisqzqng/Video-based-gait-analysis-for-dementia). The the data is preprocessed through:
 
 ```bash
-cd lib/data/3dgait \\
-python convert_pd.py \\
+cd lib/data/3dgait
+python convert_pd.py
 python preprocess_pd.py
 ``` 
 
