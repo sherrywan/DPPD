@@ -7,7 +7,6 @@ wandb/*
 
 # results
 res/*
-*.png
 *.mp4
 
 # data
